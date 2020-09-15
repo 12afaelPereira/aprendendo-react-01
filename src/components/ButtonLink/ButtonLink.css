@@ -18,3 +18,10 @@
 
     background: rgba(255, 255, 255, 70%);
 }
+
+@media (min-width: 600px){
+    .Btn-Link:hover{
+        transition: all .5s ease;
+        transform: translateY(-20px);
+    }
+}

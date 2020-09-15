@@ -53,3 +53,9 @@
 
     background: #000;
 }
+
+@media (min-width: 600px){
+    .Account button:hover{
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
