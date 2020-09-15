@@ -1,8 +1,9 @@
 import React from 'react';
+import './ButtonLink.css'
 
 function ButtonLink(){
     return(
-        <button>Visit Egypt</button>
+        <button className='Btn-Link'>Visit Egypt</button>
     );
 }
 
