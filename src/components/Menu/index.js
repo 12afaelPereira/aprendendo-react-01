@@ -4,7 +4,7 @@ import './Menu.css'
 function Menu() {
     return (
         <div className='menu'>
-            <h1 className='Logo'>travel</h1>
+            <h1 className='Logo'><a href="/#">travel</a></h1>
 
             <div className='MainLinks'>
                 <ul>
@@ -13,7 +13,7 @@ function Menu() {
                 </ul>
             </div>
 
-            <div className='Autentication'>
+            <div className='Account'>
 
                 <span>
                     <a href="/#">Sign in</a>

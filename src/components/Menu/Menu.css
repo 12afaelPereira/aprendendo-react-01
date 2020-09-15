@@ -1,18 +1,57 @@
+*{
+    text-decoration: none;
+    color: #000;
+}
+
 .menu{
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
 
-    
+    padding: 20px 0px;
+
+    /* background: rgb(137, 187, 231); */
+}
+
+.Logo{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Logo a:visited{
+    color: #000;
 }
 
 .MainLinks{
-    
+    font-weight: bold;
     
 }
 
 .MainLinks ul{
     display: flex;
-
     list-style: none;
+}
+
+.MainLinks ul li + li{
+    margin-left: 10px;
+}
+
+.Account{
+    font-weight: bold;
+}
+
+.Account button{
+    margin-left: 10px;
+    padding: 3px 8px;
+
+    border: none;
+    border-radius: 15px;
+
+    font-weight: bold;
+    color: #fff;
+
+    cursor: pointer;
+
+    background: #000;
 }
