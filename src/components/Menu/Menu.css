@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+    
+}
+
+.MainLinks{
+    
+    
+}
+
+.MainLinks ul{
+    display: flex;
+
+    list-style: none;
+}
